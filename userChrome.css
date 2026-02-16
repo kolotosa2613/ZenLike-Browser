@@ -1,0 +1,14 @@
+@import "title-bar.css";
+@import "rounded-corner.css";
+@import "floating-status-bar.css";
+@import "findbar.css";
+@import "menu-button.css";
+@import "throbber.css";
+@import "sidebar.css";
+@import "sidebar2.css";
+/* Target spesifik untuk context menu */
+#contentAreaContextMenu,
+menupopup[type="context"] {
+  max-width: 240px !important;
+  width: auto !important;
+}
