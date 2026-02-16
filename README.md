@@ -5,6 +5,10 @@ Made your firefox browser more clean like zen browser
 
 Window Button
 
+<img width="318" height="104" alt="image" src="https://github.com/user-attachments/assets/7a869a22-6a59-406e-8f97-a235e7c69f71" />
+
+thorbber
+
 <img width="629" height="119" alt="image" src="https://github.com/user-attachments/assets/fcb7bdf7-6893-46a7-bcef-eca6bf875a68" /> 
 
 Findbar
