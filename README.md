@@ -1,10 +1,8 @@
 # ZenLike-Browser
 Made your firefox browser more clean like zen browser
 # Preview
-<img width="194" height="71" alt="image" src="https://github.com/user-attachments/assets/869b29ae-bb77-45f8-be66-07bcb77540ac" />
-Window Button
-<img width="629" height="119" alt="image" src="https://github.com/user-attachments/assets/fcb7bdf7-6893-46a7-bcef-eca6bf875a68" />
-Findbar
+<img width="194" height="71" alt="image" src="https://github.com/user-attachments/assets/869b29ae-bb77-45f8-be66-07bcb77540ac" /> Window Button
+<img width="629" height="119" alt="image" src="https://github.com/user-attachments/assets/fcb7bdf7-6893-46a7-bcef-eca6bf875a68" /> Findbar
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/dd1d07b8-c472-4a3a-ba9c-3971ec354f56" />
 
 # How To Apply The Code
