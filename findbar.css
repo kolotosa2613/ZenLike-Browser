@@ -1,0 +1,85 @@
+:root {
+	/* Konfigurasi User Input */
+	--theme-better_find_bar-textbox_width: 600;
+	--theme-better_find_bar-custom_background: rgb(8, 8, 9);
+	
+	/* Variabel Default */
+	--better-findbar-position-top: auto;
+	--better-findbar-position-bottom: 15px;
+	--better-findbar-position-left: 50%;
+	--better-findbar-position-right: auto;
+	--better-findbar-transform-translateX: -50%;
+	--better-findbar-background-color: var(--theme-better_find_bar-custom_background);
+}
+
+findbar {
+	display: flex !important;
+
+	border-radius: 12px !important;
+	margin: 0px !important;
+
+	width: 90% !important;
+	max-width: calc(var(--theme-better_find_bar-textbox_width) * 1px); /* 700px */
+
+	height: auto !important;
+
+	position: fixed !important;
+	top: var(--better-findbar-position-top);
+	bottom: var(--better-findbar-position-bottom);
+	left: var(--better-findbar-position-left);
+	right: var(--better-findbar-position-right);
+	transform: translateX(var(--better-findbar-transform-translateX));
+	z-index: 10000 !important;
+	overflow: auto !important;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+	background: var(--better-findbar-background-color) !important;
+	border: 1px solid rgba(255, 255, 255, 0.1) !important;
+	transition: opacity 0.35s ease, visibility 0.35s ease !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	padding: 12px !important;
+}
+
+findbar .findbar-container {
+	flex-wrap: wrap;
+	overflow-x: auto !important;
+	height: auto !important;
+	row-gap: 10px;
+	width: 100%;
+}
+
+findbar .findbar-container > :first-child {
+	width: 100% !important;
+}
+
+findbar .findbar-textbox {
+	flex-grow: 1;
+}
+
+findbar[hidden] {
+	visibility: hidden !important;
+	opacity: 0 !important;
+	pointer-events: none !important;
+}
+
+@starting-style {
+	findbar:not([hidden]) {
+		opacity: 0 !important;
+	}
+}
+
+/* HIDE MATCH DIACRITICS */
+findbar .findbar-match-diacritics,
+findbar checkbox.findbar-match-diacritics {
+	display: none !important;
+}
+
+/* Hide Highlight - hide_on_disable */
+findbar checkbox.findbar-highlight:not([checked]) {
+	display: none !important;
+}
+
+/* Hide Whole Words - hide_on_disable */
+findbar .findbar-entire-word:not([checked]) {
+	display: none !important;
+}

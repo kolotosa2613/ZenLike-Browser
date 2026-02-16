@@ -1,0 +1,25 @@
+:root {
+  --window-radius: 12px !important;
+}
+
+#browser {
+  border-bottom-left-radius: var(--window-radius) !important; 
+  border-bottom-right-radius: 19px !important;
+  overflow: hidden !important;
+}
+
+#appcontent,
+#tabbrowser-tabpanels {
+  border-right: 7px solid rgba(0, 0, 0, 0.05) !important;
+  border-bottom: 7px solid rgba(0, 0, 0, 0.05) !important;
+  outline: 1px solid rgba(0, 0, 0, 0.05) !important;
+  overflow: hidden !important;
+}
+
+.browserContainer, 
+browser {
+  border-radius: var(--window-radius) !important;
+  background-color: transparent !important;
+  overflow: hidden  !important
+}
+

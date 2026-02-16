@@ -1,0 +1,4 @@
+/* Mengganti ikon Menu Hamburger dengan Logo Firefox */
+#PanelUI-menu-button {
+    list-style-image: url("chrome://branding/content/icon16.png") !important;
+}

@@ -1,0 +1,5 @@
+/* Mengatur warna hover pada latar belakang tab */
+.tabbrowser-tab:hover .tab-background {
+  background-color: #2b2a33 !important;
+}
+

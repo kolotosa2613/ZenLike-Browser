@@ -1,0 +1,38 @@
+/* Sembunyikan ikon asli dan ubah menjadi lingkaran macOS */
+.titlebar-buttonbox-container {
+  margin-right: 10px !important;
+}
+
+.titlebar-button {
+    padding: 7px !important;
+    width: 12px !important;
+    height: 12px !important;
+    align-self: center;
+    margin-left: 13px !important;
+    border-radius: 50% !important;
+    transition: all 100ms;
+}
+
+/* Warna Close (Merah) */
+.titlebar-close {
+  background-color: #ff5f56 !important;
+  color: transparent !important;
+}
+
+/* Warna Minimize (Kuning) */
+.titlebar-min {
+  background-color: #ffbd2e !important;
+  color: transparent !important;
+}
+
+/* Warna Maximize (Hijau) */
+.titlebar-max, .titlebar-restore {
+  background-color: #27c93f !important;
+  color: transparent !important;
+}
+
+/* Efek Hover (Opsional: memunculkan simbol saat didekati) */
+.titlebar-button:hover {
+  filter: brightness(0.4);
+}
+

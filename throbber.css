@@ -1,0 +1,33 @@
+/* Atur kontainer ikon agar semua isinya otomatis di tengah */
+.tab-icon-stack {
+  display: grid !important;
+  align-items: center !important;
+  justify-items: center !important;
+}
+
+/* Atur Throbber */
+.tab-throbber {
+  background-image: none !important;
+  position: relative !important;
+  width: 16px !important;
+  height: 16px !important;
+  display: inline-block;
+  border: 3px solid rgba(150, 150, 150, 0.26) !important;
+  border-top: 3px solid #ffffff !important; 
+  border-top-color: #ffffff !important;
+  border-right-color: #ffffff !important;
+  border-radius: 50% !important;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Animasi rotasi */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Sembunyikan titik bawaan Firefox */
+.tab-throbber::before {
+  display: none !important;
+}
+
