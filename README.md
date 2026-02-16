@@ -8,7 +8,11 @@ Window Button
 <img width="629" height="119" alt="image" src="https://github.com/user-attachments/assets/fcb7bdf7-6893-46a7-bcef-eca6bf875a68" /> 
 
 Findbar
+
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/dd1d07b8-c472-4a3a-ba9c-3971ec354f56" />
+
+Rounded Corner
+
 
 # How To Apply The Code
 1. Download the zip files from the repository dan unzip the files
